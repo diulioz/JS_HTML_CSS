@@ -1,9 +1,11 @@
-let variable =18;
+const validar = document.getElementById("boton");
 
-function mayor(variable){
-    if (variable >18){
-        console.log("es mayor de edad")
+validar.addEventListener('click', function(e){
+    let edad = document.getElementById('txtEdad').value
+    if(edad >= 18){
+        alert("Es mayor de edad :D ");
     }else{
-        console.log("es menor de edad")
+        alert("Es menor de edad :( ");
     }
-}
+})
+
