@@ -5,5 +5,3 @@ function mayor(variable){
         console.log("es mayor de edad")
     }
 }
-     
-)
